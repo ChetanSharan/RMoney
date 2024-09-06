@@ -30,6 +30,14 @@
 Execute the file "Assignment_Chetan.py". This will generate a CSV file named "aaa_returns.csv".
 
 ### Result of the project.
-the line graph of Apple Inc. for last two years. Shown in blue colour. The Red line shows percentage return of the staregy selected.
+The line graph of Apple Inc. for last two years. Shown in blue colour. The Red line shows percentage return of the staregy selected.
 
 ![image](https://github.com/user-attachments/assets/290e0081-ac96-4916-ba21-275cca525d21)
+
+Overall display of Percentage Returns.
+![image](https://github.com/user-attachments/assets/045cd5eb-3d93-47f7-9168-09c51673e21f)
+image 1/2
+![image](https://github.com/user-attachments/assets/33e636c9-c700-45f9-9776-06b53d26aa19)
+image 2/2
+
+
