@@ -43,7 +43,7 @@
 There was one minor design changed in the project, instead of using equal operator, less that equal to operator was used & vice versa for long & short signals detection.
 
 ### How to run the code.
-Execute the file "Acces.py". This will generate a CSV file named "aaa_returns.csv".
+Execute the file "Access.py". This will generate a CSV file named "aaa_returns.csv".
 
 ### Result of the project.
 The line graph of Apple Inc. for last two years. Shown in blue colour. The Red line shows percentage return of the staregy selected.
