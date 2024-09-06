@@ -2,7 +2,7 @@
 
 ### Objective: The script aims to analyse stock data of Apple Inc. (AAPL) ticker to detect potential trading signals based on historical maximum and minimum prices within a specific lookback period. Based on these  signals, positions and returns arecalculated. The resulting dataset is saved to a CSV file
 
-### Steps Followed. 
+### Steps Followed.
 1. Fetch Stock Data:
 ● Utilising yfinance, fetch the stock data for the ticker 'AAPL' for the past 2 years with an hourly interval.
 2. Calculate Rolling Maximum and Minimum:
