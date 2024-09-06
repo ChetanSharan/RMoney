@@ -1,5 +1,6 @@
 #Step One: Fetch Stock Data
 import yfinance as yf
+import numpy as np
 aapl = yf.Ticker("AAPL")
 hist = aapl.history(period='2y',interval= "1h")
 
@@ -18,7 +19,6 @@ hist.loc[hist['Short_signal']==True,'Signal']=-1
 #Step Five: Calculate Positions
 hist['Position0']=hist['Signal'].ffill()
 hist['Position1'] = hist['Position0'].diff()
-import numpy as np
 hist['Position1']= np.where(hist['Position1']!=0.0,hist['Signal'],0)
 hist['Position2']=hist['Position1']*hist['Close']
 
